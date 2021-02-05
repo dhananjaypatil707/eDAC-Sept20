@@ -1,0 +1,90 @@
+﻿<!--Design a Web site for CDAC institute which offers various courses like DAC,WiMC,DHI etc. Also provide the information about the course syllabus, schedule ,placement opportunity, eligibility etc. Provide a form for student registration. Use images, paragraphs, links, tables etc for creating the overall designs. For all the formatting use style sheets. For example use the following :
+Back ground color should be pink
+Each paragraph must have a left margin of 50px
+Background color of each paragraph much be white
+Color of text of paragraph must be Red
+Font type must be veranda and size must be 12px
+Use different color for unvisited, visited and mouse over links.
+Use different styling on the basis of attributes of form?s input controls like button,textbox etc-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Knowit website</title>
+    <link rel="stylesheet" href="sheet1.css" type="text/css" />
+
+    <style>
+        div h1 
+        {
+            color:maroon;
+            text-align:left;
+            margin-left: 120px;
+            margin-top:5px;
+        }
+        div h4
+        {
+            color:darkslategrey;
+            text-align: left;
+            margin-left: 120px;
+        }
+        ul {
+            list-style-type: none;
+            margin-left: 30px;
+            text-decoration: none;
+        }
+        li a
+        {
+            background-color:darkseagreen;
+            padding: 10px;
+            text-decoration:none;
+        }
+        li {
+            display: inline;
+            list-style: none;
+        }
+        a:hover
+        {
+            background-color:coral;
+            list-style-type: none;
+            display: inline;
+            padding: 5px;
+        }
+
+        div div.textbox
+        {
+            background-color:white;
+            opacity:0.8;
+            color:darkblue;
+            margin:10%;
+            padding :20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img">
+        <div style="background-color:lightgrey">
+            <img src="logo.jpg" style="height:100px;width:100px;margin:10px;float:left" />
+            <br />
+            <h1>Knowledge-Divine Information Technology, Pune</h1>
+            <h4>Authorized Training Center</h4>
+            <marquee style="color:brown">Welcome to Know-it!!</marquee>
+        </div>
+        <div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="Students.html">Students Corner</a></li>
+                <li><a href="Records.html">Placements</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="textbox">
+            <h3 style="opacity:0.9;color:brown;background-color:aliceblue">ABOUT US </h3>
+            <p>An institution that prepares leaders committed to the task of nation-building, KNOW-IT was established in the year 1999. With experience of 20 years as an Authorized Training Center (ATC) of C-DAC ACTS, Know-IT is one of the most reputed and experienced centre's for the various training programs of C-DAC ACTS in India. Under the guidance of world-renowned luminaries, students at Know-IT explore both technological and the application aspects of knowledge that will prepare them to meet the needs of an increasingly complex society.</p>
+        </div>
+    </div>
+</body>
+</html>
